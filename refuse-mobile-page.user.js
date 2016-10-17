@@ -38,12 +38,12 @@
     ];
 
     var pageURL = window.location.href;
-    for (var replaceRule of replaceTable) {
+    replaceTable.forEach(function(replaceRule) {
         var newURL = pageURL.replace(replaceRule[0], replaceRule[1]);
         if (pageURL !== newURL) {
             window.location = newURL;
         }
-    }
+    });
 
 })();
 
