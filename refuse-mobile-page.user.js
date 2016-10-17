@@ -4,8 +4,9 @@
 // @description        Redirect mobile-only URL to its corresponding PC version automatically
 // @description:zh-CN  访问移动设备专用 URL 时跳转到对应的 PC 版页面（目前已支持微博、淘宝、天猫、京东）
 // @namespace          https://github.com/xdqi/refuse-mobile-page
-// @version            0.2
+// @version            0.3
 // @author             xdqi
+// @license            MIT
 // @grant              none
 // @run-at             document-start
 // @include            *
